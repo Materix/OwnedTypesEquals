@@ -32,7 +32,7 @@ namespace OwnedTypesEquals.Initializer
                 entity = context.Set<Entity>().First();
 
                 // When
-                context.SaveChanges(); // <-- Fails here
+                context.SaveChanges(); // <-- Does not fail
             }
 
             // Then

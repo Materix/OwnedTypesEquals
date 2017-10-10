@@ -35,7 +35,7 @@ namespace OwnedTypesEquals.Equals
                 entity = context.Set<Entity>().First();
 
                 // When
-                context.SaveChanges();
+                context.SaveChanges(); // <-- Does not fail
             }
 
             // Then
