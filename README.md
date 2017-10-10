@@ -4,7 +4,7 @@ Reproduction repository for https://github.com/aspnet/EntityFrameworkCore/issues
 
 Problem with overriden equals in owned entity which was initialized in onwer type.
 
-Tests that cover four situation:
+Repository contains tests that cover four situation:
 
 - Equals and initializer (https://github.com/Materix/OwnedTypesEquals/tree/master/OwnedTypesEquals/EqualsInitializer)
 - Only initializer (https://github.com/Materix/OwnedTypesEquals/tree/master/OwnedTypesEquals/Initializer)
